@@ -10,8 +10,7 @@ Note : Pour cet exercice, je suis en binôme avec  **Loïc** et nous sommes dans
 
 Schéma réseau de ce qui est attendu
 
-![Description de l'image](https://github.com/Fr304/Cloud/blob/main/Test/Image%20-%20TP2/Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.001.jpeg)
-![](Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.001.jpeg)
+![](https://github.com/Fr304/Cloud/blob/main/Test/Image%20-%20TP2/Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.001.jpeg)
 
 Partie 1 : Création des VPCs 
 
@@ -28,7 +27,7 @@ Lors de la création, sélectionner une seule zone de disponibilité et ajouter 
 
 Pour la création du VPC, j’ai choisi l’option **vpc et plus encore** puis j’ai choisi un **réseau**  et un **sous réseau privé** et une **zone de disponibilité**. 
 
-![](Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.002.jpeg)
+![](https://github.com/Fr304/Cloud/blob/main/Test/Image%20-%20TP2/Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.002.jpeg?raw=true)
 
 ![](Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.003.jpeg)
 
