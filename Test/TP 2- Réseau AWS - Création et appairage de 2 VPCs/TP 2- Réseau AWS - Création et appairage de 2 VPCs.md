@@ -18,7 +18,7 @@ Pour commencer, nous allons créer un VPC pour chaque membre du binôme en respe
 
 
 
-|Nom du VPC |VPC CIDR |` `Subnet |Private Subnet |
+|Nom du VPC |VPC CIDR |Subnet |Private Subnet |
 | - | - | - | - |
 |FAD\_VPC1 |10\.1.0.0 /16 |10\.1.1.0 /24 |10\.1.2.0 /24 |
 |LLT\_VPC2 |10\.111.0.0 /16 |10\.111.1.0 /24 |10\.111.2.0 /24 |
@@ -104,23 +104,23 @@ Pour ce TP, j’en ai aussi profité pour déposer ma clé privée FAD\_KeyPair\
 ![](https://github.com/Fr304/Cloud/blob/main/Test/Image%20-%20TP2/Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.016.png)
 
 Dans le fichier de config, voici la configuration que j’ai faite : 
-
+```bash
 Host bastion
 
-`  `HostName 18.133.245.199 
+   HostName 18.133.245.199 
 
-`  `User ec2-user 
+   User ec2-user 
 
-`  `IdentityFile C:/Users/Admin/.ssh/FAD\_KeyPair\_VPC1\_1 
+   IdentityFile C:/Users/Admin/.ssh/FAD\_KeyPair\_VPC1\_1 
 
 Host private-instance 
 
-`  `HostName 10.1.2.121 
+   HostName 10.1.2.121 
 
-`  `User ec2-user 
+   User ec2-user 
 
-`  `IdentityFile C:/Users/Admin/.ssh/FAD\_KeyPair\_VPC1\_1   ProxyJump bastion 
-
+   IdentityFile C:/Users/Admin/.ssh/FAD\_KeyPair\_VPC1\_1   ProxyJump bastion 
+```
 Sur PowerShell, j’ai saisi la commande suivante : **ssh private-instance** 
 
 Cela m’a permis de me connecter à mon instance privée ayant l’adresse IP **10.1.2.121**. 
