@@ -10,7 +10,7 @@ Note : Pour cet exercice, je suis en binôme avec  **Loïc** et nous sommes dans
 
 Schéma réseau de ce qui est attendu
 
-![Description de l'image](../Image - TP2/Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.001.jpeg)
+![](Cloud/Test/Image - TP2/Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.001.jpeg)
 ![](Aspose.Words.dfd7a4eb-534c-4bf4-850b-f1844b9cfade.001.jpeg)
 
 Partie 1 : Création des VPCs 
